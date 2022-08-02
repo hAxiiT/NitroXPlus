@@ -1,9 +1,13 @@
 /**
  * @name NitroXPlus
  * @author palacee
+ * @authorId 285877264300900372
  * @version 1.0.5
+ * @description Enable high quality screen sharing & use every Server Emote without Nitro!
+ * @authorLink https://github.com/palacee
+ * @website https://github.com/palacee
  * @source https://github.com/palacee/NitroXPlus
- * @updateUrl https://raw.githubusercontent.com/palacee/NitroXPlus/main/NitroXPlus.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/palacee/NitroXPlus/master/NitroXPlus.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -31,19 +35,23 @@
 
 module.exports = (() => {
     const config = {
-        "info": {
-            "name": "NitroXPlus",
-            "authors": [{
-                "name": "palacee",
-                "discord_id": "285877264300900372",
-                "github_username": "palacee"
-            }],
-            "version": "1.0.5",
-            "description": "Enable high quality screen sharing & use every Server Emote without Nitro!",
-            "github": "https://github.com/palacee/NitroXPlus",
-            "github_raw": "https://raw.githubusercontent.com/palacee/NitroXPlus/main/NitroXPlus.plugin.js"
+        info: {
+            name: "NitroXPlus",
+            authors: [
+				{
+                	name: "palacee",
+                	discord_id: "285877264300900372",
+                	github_username: "palacee"
+            	},
+			],
+        version: "1.0.5",
+        description: 
+			"Enable high quality screen sharing & use every Server Emote without Nitro!",
+        github: "https://github.com/palacee/NitroXPlus",
+        github_raw: 
+			"https://raw.githubusercontent.com/palacee/NitroXPlus/master/NitroXPlus.plugin.js"
         },
-        "main": "NitroXPlus.plugin.js"
+        main: "NitroXPlus.plugin.js"
     };
 
     return !global.ZeresPluginLibrary ? class {
