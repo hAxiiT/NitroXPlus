@@ -3,7 +3,7 @@
  * @author hAxiT
  * @version 4.4.7
  * @source https://github.com/hAxiiT/NitroXPlus
- * @updateUrl https://raw.githubusercontent.com/hAxiiT/NitroXPlus/main/NitroXPlus.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/hAxiiT/NitroXPlus/blob/main/NitroXPlus.plugin.js
  */
 /*@cc_on
 @if(@_jscript)
