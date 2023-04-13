@@ -3,7 +3,7 @@
  * @author hAxiT
  * @version 4.4.7
  * @source https://github.com/hAxiiT/NitroXPlus
- * @updateUrl https://raw.githubusercontent.com/hAxiiT/NitroXPlus/blob/main/NitroXPlus.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/hAxiiT/NitroXPlus/master/NitroXPlus.plugin.js
  */
 /*@cc_on
 @if(@_jscript)
@@ -41,7 +41,7 @@ module.exports = (() => {
 			"version": "4.4.7",
 			"description": "Unlock all screensharing modes, and use cross-server & GIF emotes!",
 			"github": "https://github.com/hAxiiT/NitroXPlus",
-			"github_raw": "https://raw.githubusercontent.com/hAxiiT/NitroXPlus/main/NitroXPlus.plugin.js"
+			"github_raw": "https://raw.githubusercontent.com/hAxiiT/NitroXPlus/master/NitroXPlus.plugin.js"
 		},
 		"main": "YABDP4Nitro.plugin.js"
 	};
